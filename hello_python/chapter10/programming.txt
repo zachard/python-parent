@@ -1,0 +1,5 @@
+I do not like programming.I love creating new games.
+我要独占一行.
+我也要独占一行.
+我是以附加的方式写入文件的.
+我也是以附加的方式写入文件的.
