@@ -1,0 +1,8 @@
+<p>
+    <a href="{% url 'learning_logs:index' %}">Learning Log</a> - 
+    <a href="{% url 'learning_logs:topics' %}">Topics</a>
+</p>
+
+<!-- 插入了一对块标签. 这个块名为content, 是一个占位符, 其中包含的信息将由子模板指定-->
+<!-- 子模板并非必须定义父模板中的每个块, 因此在父模板中, 可使用任意多个块来预留空间, 而子模板可根据需要定义相应数量的块-->
+{% block content %}{% endblock content %}
