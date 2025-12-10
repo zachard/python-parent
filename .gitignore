@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.DS_Store
+Thumbs.db
+
+# 排除决策树生成的文件
+*decision_tree*
+*final_report.xlsx # 排除报告
