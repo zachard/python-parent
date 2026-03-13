@@ -106,3 +106,6 @@ Thumbs.db
 # 排除决策树生成的文件
 *decision_tree*
 *final_report.xlsx # 排除报告
+
+# 排除模型文件
+model/
